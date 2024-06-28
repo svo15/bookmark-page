@@ -1,0 +1,59 @@
+.select{
+    margin-top: 50px;
+}
+
+.select button{
+  border: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 50px;
+  color: black;
+}
+.select button:hover{
+    color: hsl(0, 94%, 66%);
+    border: none;
+}
+.select button.active{
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+}
+
+.change{
+    position: relative;
+    margin-top: 70px;
+    
+}
+.tab1,.tab2,.tab3{
+    position: absolute;
+    
+}
+
+.tab1-flex ,.tab2-flex,.tab3-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    padding: 70px 120px;
+}
+.text p{
+    margin-top: 40px ;
+    margin-bottom: 40px;
+    color: grey;
+}
+.text button{
+    padding: 20px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: #5266df;
+    border-radius: 5px;
+}
+.tab1{
+    display: block;
+}
+.tab2{
+    display: none;
+}
+.tab3{
+    display: none;
+}
